@@ -8,15 +8,11 @@ dotenv.config();
 const app = express();
 app.use(cors());
 app.use(express.json());
-const PORT = process.env.PORT || 5000;
-
-app.use(cors());
-app.use(express.json());
 
 const userData = [
   {
     id: "1f2ama10y7",
-    name: "Timilehin Adeniake",
+    name: "Timilehin Adenaike",
     email: "timmynaike@gmail.com",
     alternativeEmail: null,
     type: "DEFAULT",
@@ -225,7 +221,3 @@ app.get("/", (_req: Request, res: Response) => {
 export default function handler(req: VercelRequest, res: VercelResponse) {
   return app(req, res);
 }
-
-// app.listen(PORT, () => {
-//   console.log(`🚀 Server is running on http://localhost:${PORT}`);
-// });
