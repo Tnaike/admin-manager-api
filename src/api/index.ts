@@ -21,7 +21,7 @@ const userData = [
     alternativeEmail: null,
     type: "DEFAULT",
     createdAt: "2023-01-01T09:12:45.123Z",
-    updatedAt: "2023-01-01T09:12:45.123Z",
+    updatedAt: "2025-07-24T07:25:41.123Z",
     status: "Active",
     photo: "https://randomuser.me/api/portraits/men/80.jpg",
     usersRole: [
@@ -38,7 +38,7 @@ const userData = [
         updatedAt: "2024-01-06T07:12:45.123Z",
       },
       {
-        role: "supportadmin",
+        role: "Supportadmin",
         status: "InActive",
         createdAt: "2023-01-01T09:12:45.123Z",
         updatedAt: "2024-01-06T07:12:45.123Z",
