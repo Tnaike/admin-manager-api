@@ -23,6 +23,7 @@ const userData = [
     createdAt: "2023-01-01T09:12:45.123Z",
     updatedAt: "2023-01-01T09:12:45.123Z",
     status: "Active",
+    photo: "https://randomuser.me/api/portraits/men/80.jpg",
     usersRole: [
       {
         role: "Superadmin",
@@ -44,9 +45,6 @@ const userData = [
       },
     ],
   },
-  { id: 1, name: "John Doe", role: "Admin" },
-  { id: 2, name: "Jane Smith", role: "User" },
-  { id: 3, name: "Alice Johnson", role: "Manager" },
 ];
 
 const userRoles = [
@@ -221,4 +219,3 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
 // app.listen(PORT, () => {
 //   console.log(`🚀 Server is running on http://localhost:${PORT}`);
 // });
-
